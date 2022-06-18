@@ -1,0 +1,376 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/*-----------------------------Header------------------------------*/
+
+.header1 nav {
+    width: 100%;
+    color: white;
+    display: flex;
+    background-color: rgb(41,163,163);
+    margin: 0px 0px;
+    padding: 10px;
+}
+
+nav p{
+    padding-left: 100px;
+}
+
+.social-links a{
+    padding-left: 5px;
+    position: relative;
+}
+
+.social-links a i{
+    color: white;
+}
+
+.social-links2{
+    display: flex;
+    float: right;
+    position: absolute;
+    right: 10%;
+}
+
+.social-links2 p{
+    margin-right: 25px;
+    padding: 0px;
+}
+
+.social-links2 a i{
+    padding-right: 5px;
+}
+
+.social-links2 a i{
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown span{
+    margin: 0px 2px;
+    padding: 0px 2px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.header2 img{
+    float: left;
+    margin-left: 100px;
+}
+
+.header2 nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header2 ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: large;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.header2 ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 21px;
+}
+
+.header2 .nav-bar a:hover{
+    color: rgb(41,163,163);
+}
+
+.header2 span{
+    border: 1px solid black;
+    border-radius: 0px;
+    border-color: rgb(41,163,163);
+    margin: 4px;
+    margin-right: 50px;
+    padding: 11px 25px;
+    background-color: rgb(41,163,163);
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.header2 span a{
+    text-decoration: none;
+    color: white;
+}
+
+.header3{
+    background-color: black;
+    background: rgba(0,0,0,0.7) url("../Images/image1.jpg");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 180px 150px 0px 130px;
+}
+
+.header3 h1{
+    font-size: xxx-large;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.header3 p{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: medium;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-right: 400px;
+}
+
+.header3 a{
+    text-decoration: none;
+    background: none;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 10px 15px;
+}
+
+/*-----------------------------Gallery------------------------------*/
+
+.gallery{
+    text-align: center;
+    font-size: larger;
+    margin-top: 2px;
+    padding: 0.25%;
+}
+
+.gallery h1{
+    color: black;
+}
+
+.gallery h1 span{
+    color: rgb(41, 163, 163);
+}
+
+.gallery p{
+    padding-top: 4%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content:space-between;
+    align-self: center;
+    margin-top: 5%;
+    padding: 1%;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: black;
+}
+
+.gallery a span{
+    color: rgb(41,163,163);
+}
+
+.gallery a:hover{
+    color: rgb(13, 174, 174);
+}
+
+.gallery .gallery_container .photo img{
+    display: inline-block;
+    width: 20%;
+    height: 40vh;
+    padding: 0.75%;
+}
+
+/*-----------------------------Upcoming Events------------------------------*/
+
+.Events{
+    background: rgba(0,0,0,0.7) url(../Images/image2.PNG);
+    height: 38vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.Events img{
+    float: left;
+    background: white;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+
+.Events h2{
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    color: white;
+}
+
+.Events p{
+    padding-top: 0.8%;
+    margin-left: 10%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-us span{
+    display: flex;
+    font-size: 18px;
+    margin: 18px 0px;
+}
+
+.contact-us ul li{
+    list-style: none;
+    margin: 2px 0px;
+}
+
+.contact-us ul span{
+    margin-bottom: 13px;
+    font-size: 15px;
+}
+
+.footer-col ol{
+    list-style: none;
+}
+
+.footer-col ol li{
+    margin-bottom: 10px;
+}
+
+.footer-col ol li a{
+    color: white;
+    text-decoration: none;
+    margin: 2px;
+}
+
+.footer{
+    background-color: #24262b;
+    color: white;
+    padding: 50px 0px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.footer-col{
+    width: 24%;
+    padding: 0px 15px;
+}
+
+.footer-col h4{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 750;
+    color: white;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    background-color: #00b8e6;
+    height: 3px;
+    box-sizing: border-box;
+    width: 32px;
+}
+
+label{
+    padding: 35px 0px;
+    display: flex;
+    position: relative;
+}
+
+input{
+    border: none;
+    padding: 10px;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    background: rgba(41,163,163);
+}
+
+button i{
+    color: white;
+}
+
+/*-----------------------------Footer------------------------------*/
+
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 20px 0px;
+}
+
+.left-col {
+    color: white;
+    position: relative;
+    left: 7.5%;
+}
+
+.right-col{
+    align-items: end;
+    position: absolute;
+    right: 5%;
+}
+
+.right-col a{
+    color: white;
+    padding-left: 15px;
+}
